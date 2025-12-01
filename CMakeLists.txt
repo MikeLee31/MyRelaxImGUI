@@ -37,12 +37,12 @@ target_include_directories(MyRelaxImGUI PRIVATE
 
 # 链接 Windows 和 DirectX 11 库（MinGW 兼容）
 target_link_libraries(MyRelaxImGUI
-    d3d11
-    dxgi
-    d3dcompiler
-    dwmapi
-    gdi32
-    shell32
+    d3d11                   #Direct3D 11 核心
+    dxgi                    #DirectX 图形基础设施 
+    d3dcompiler             #Direct3D 着色器编译器
+    dwmapi                  #桌面窗口管理器 API 
+    gdi32                   #GDI 图形设备接口
+    shell32                 #Windows Shell API
 )
 
 # 启用 Unicode（推荐）

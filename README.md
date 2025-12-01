@@ -1,3 +1,8 @@
+# ImGUI
+
+- 即使交互
+- UI=调用序列
+
 Demo的CMakeLists.txt
 
 ```cmake
@@ -54,5 +59,26 @@ target_compile_definitions(Demo PRIVATE UNICODE _UNICODE)
 # 设置子系统为 Windows（如果你不需要控制台，可选）
 # 如果你希望有控制台输出用于调试，先不要加 WIN32
 # add_executable(MyRelaxImGUI WIN32 ${SOURCES})  # ← 无控制台
+```
+
+# Cmake的学习
+
+- add_executable(<可执行文件名> [源文件列表...])
+
+```bash
+# 使用默认编译器
+cmake .. 
+# 强制 CMake 生成 适用于 MinGW 的
+cmake .. -G "MinGW Makefiles"
+mingw32-make
+
+推荐考虑ninja
+```
+
+# git
+
+```
+git add .
+git status
 ```
 
