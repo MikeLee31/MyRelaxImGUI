@@ -80,5 +80,8 @@ mingw32-make
 ```
 git add .
 git status
+git commit -m "first run"
 ```
 
+- git push
+  - **-u** 和上游建立连接，一般首次推送
