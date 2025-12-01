@@ -1,0 +1,9 @@
+# 忽略 build 目录（所有平台）
+build/
+
+# 可选：也忽略其他常见构建目录
+cmake-build-*/
+*.exe
+*.obj
+*.ilk
+*.pdb
