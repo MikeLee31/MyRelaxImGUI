@@ -29,7 +29,7 @@ set(IMGUI_SOURCES
 )
 
 # 主程序
-set(SOURCES
+set(SOURCESd
     src/demo.cpp
     ${IMGUI_SOURCES}
 )
@@ -80,7 +80,7 @@ mingw32-make
 ```
 git add .
 git status
-git commit -m "first run"
+git commit -m "modify game"
 ```
 
 - git push
